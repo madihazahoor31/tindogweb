@@ -1,9 +1,15 @@
 /* Title Section */
 #title{
-  background-color: #ff4c68;
+
   color: white;
+  background-image: url("C:/Users/UNOFIX-TECH/Documents/websites/TinDog-Start-master/images/dog-wallpaper.jpg");
 
+}
+#belowtitle{
 
+}
+a {
+  color: hotpink;
 }
 
 body{
@@ -26,10 +32,11 @@ body{
 }
 .navbar-item{
   padding: 18px;
+  color: #f6eedf;
 }
 .nav-link{
   font-family: 'Montserrat-light';
-  color: #fff;
+  font-weight: bold;
 }
 .downloadbutton{
   margin: 5% 3% 2%;
@@ -89,7 +96,7 @@ h3{
 }
 .fast{
 
-  color: #ef8172;
+  color:  #76ead7
   font-size: 50px;
   height: 30%;
   width: 50%;
@@ -97,13 +104,13 @@ h3{
   padding-left: 40%;
 }
 .fast:hover{
-  color: #ff4c68;
+  color:  #ff9234;;
 }
 /* Testimonials section */
 #testimonials{
 
   text-align: center;
-  background: #ef8172;
+  background: #ff9234;
   color: #fff;
 }
 .testimonial-image{
@@ -114,7 +121,7 @@ h3{
 /* Press section */
 #press{
 
-  background: #ef8172;
+  background:  #ff9234;
   text-align: center;
   padding-bottom: 3%;
   z-index: 4;
@@ -151,7 +158,12 @@ h3{
 }
 #cta{
   text-align: center;
-  background-color: #ff4c68;
+  background-color:#ffcd3c;
+
+}
+.pic{
+  float: left;
+  width: 70px;
 }
 #ctahead{
   font-family: 'Montserrat';
